@@ -1,0 +1,52 @@
+{
+    "ClassName": "Folder",
+
+    "Children": [
+        {
+            "Name": "Ban",
+            "ClassName": "RemoteFunction"
+        },
+
+        {
+            "Name": "Unban",
+            "ClassName": "RemoteFunction"
+        },
+        
+        {
+            "Name": "Kick",
+            "ClassName": "RemoteFunction"
+        },
+
+        {
+            "Name": "Filter",
+            "ClassName": "RemoteFunction"
+        },
+
+        {
+            "Name": "GetBans",
+            "ClassName": "RemoteFunction"
+        },
+
+        {
+            "Name": "GetUser",
+            "ClassName": "RemoteFunction"
+        },
+
+
+
+        {
+            "Name": "MemberAnnounce",
+            "ClassName": "RemoteEvent"
+        },
+
+        {
+            "Name": "StaffAnnounce",
+            "ClassName": "RemoteEvent"
+        },
+
+        {
+            "Name": "GetAnnouncements",
+            "ClassName": "RemoteFunction"
+        }
+    ]
+}

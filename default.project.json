@@ -1,0 +1,32 @@
+{
+	"name": "RoMinistrator Panel",
+	"tree": {
+		"$className": "DataModel",
+
+		"ServerScriptService": {
+			"RoMinistrator": {
+				"$path": "src/RoMinistrator",
+
+				"RoMinistrator_Panel": {
+					"$className": "ScreenGui",
+
+					"Admin": {
+						"$className": "Frame",
+
+						"AdminHandle": {
+							"$path": "src/RoMinistratorClient/AdminHandle"
+						}
+					},
+
+					"User": {
+						"$className": "Frame",
+
+						"User": {
+							"$path": "src/RoMinistratorClient/User"
+						}
+					}
+				}
+			}
+		}
+	}
+}
